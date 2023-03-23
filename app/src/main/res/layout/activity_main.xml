@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#56F1CC"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/btemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="20dp"
+
+            android:hint="Nhap Email" />
+
+        <EditText
+            android:id="@+id/btname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nhap ten dang nhap" />
+
+        <EditText
+            android:id="@+id/btpass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="20dp"
+            android:hint="Nhap mat khau" />
+
+        <EditText
+            android:id="@+id/btrepass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="20dp"
+            android:hint="Nhap lai mat khau" />
+
+        <Button
+            android:id="@+id/btdangki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CA5151"
+            android:text="Dang ki" />
+
+</LinearLayout>
